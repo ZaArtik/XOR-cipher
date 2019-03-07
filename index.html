@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="main.css">
+    <title>Gamma</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <main class="maincontent">
+            <h2 class="maincontent__title">Gamma shifr</h2>
+            <h3 class="maincontent__index-title">Введіть індекси</h3>
+            <div class="maincontent__index">
+                <span class="maincontent__index-name">Y1 = </span><input type="text" class="maincontent__index-input maincontent__index-input--1">
+                <span class="maincontent__index-name">Y2 = </span><input type="text" class="maincontent__index-input maincontent__index-input--2">
+                <span class="maincontent__index-name">Y3 = </span><input type="text" class="maincontent__index-input maincontent__index-input--3">
+            </div>
+            <h3 class="maincontent__index-title">Введіть текст</h3>
+            <div class="maincontent__text-block">
+                <textarea class="maincontent__text maincontent__text--dec"></textarea>
+                <textarea class="maincontent__text maincontent__text--enc" readonly></textarea>
+            </div>
+            <div class="maincontent__btns">
+                <button class="maincontent__btn maincontent__btn--enc">Зашифрувати</button>
+                <button class="maincontent__btn maincontent__btn--dec">Розшифрувати</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="main.js">
+    </script>
+</body>
+
+</html>
